@@ -10,6 +10,9 @@
 # Java class files
 *.class
 
+# Adding code to ignore android studio bioninja project
+*.zip
+
 # Generated files
 bin/
 gen/
