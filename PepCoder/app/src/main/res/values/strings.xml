@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BIONINJA</string>
+    <string name="heading">BioNinja</string>
+    <string name="hamming">Hamming Distance</string>
+    <string name="nucleotide_frequency">Nucleotide Frequency</string>
+    <string name="gc_content">gc content</string>
+    <string name="convert_rna_dna_to_amino_acid_sequence">convert rna/dna to amino acid sequence</string>
+    <string name="weight_of_the_amino_acid_sequence">weight of the amino acid sequence</string>
+    <string name="enter_the_sequence">Enter the sequence</string>
+    <string name="submit">Submit</string>
+    <string name="paste_the_sequence">Paste the sequence below</string>
+    <string name="upload_a_txt_file">Upload .txt file</string>
+    <string name="calculate_gc_content">calculate gc content</string>
+    <string name="rnadna">Convert rna/dna to amino acid sequence</string>
+    <string name="calculate_hamming_distance">Calculate hamming distance</string>
+    <string name="cal_weight">Calculate weight of the amino acid sequence</string>
+    <string name="upload_txt_file2">upload .txt file2</string>
+    <string name="upload_txt_file1">upload .txt file1</string>
+    <string name="about">Bioninja is a multipurpose bio caluclator application which helps in finding the amino sequence to a corresponding rna dna sequence hamming distance between two nucleotide sequences nucleotide frequency and to calculate the weight of an amino sequence through the inbuilt algorithms and logic.</string>
+    <string name="the_result_is">The Result is : -</string>
+    <string name="calc_nf">calculate nucleotide frequency</string>
+    <string-array name="drop_menu">
+        <item>Hamming Distance</item>
+        <item>GC Content</item>
+        <item>Translator</item>
+        <item>Nucleotide Frequency</item>
+    </string-array>
+</resources>

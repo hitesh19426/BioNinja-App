@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pepcoder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconic"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/iconic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PepCoder">
+        <activity android:name=".RNADNAConverterAboutIT"></activity>
+        <activity android:name=".NF_AboutIT" />
+        <activity android:name=".AminoWeightAboutIT" />
+        <activity android:name=".GC_Content_AboutIT" />
+        <activity android:name=".HammingDistanceAboutIT" />
+        <activity android:name=".dna_to_rna_result" />
+        <activity android:name=".amino_weight_result" />
+        <activity android:name=".hamming_distance_result" />
+        <activity android:name=".gc_content_result" />
+        <activity android:name=".GcCalculator" />
+        <activity android:name=".AminoWeightCalculator" />
+        <activity android:name=".RnaDnaConvertor" />
+        <activity android:name=".NucleotideFreCalculator" />
+        <activity android:name=".HammingCalculator" />
+        <activity android:name=".AboutIt" />
+        <activity android:name=".NfResult" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

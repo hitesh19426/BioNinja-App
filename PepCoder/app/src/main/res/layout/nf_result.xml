@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/use">
+
+
+    <com.razerdp.widget.animatedpieview.AnimatedPieView
+        android:id="@+id/animatedPieView"
+        android:layout_width="394dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/Title_resultIS"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp" />
+
+    <Button
+        android:id="@+id/Title_resultIS"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#A912C3"
+        android:clickable="false"
+        android:fontFamily="@font/spacequestitalic_g8j"
+        android:padding="2dp"
+        android:text="The Result Is:"
+        android:textSize="38dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AA = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="130dp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="AT = "
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="130dp"/>
+        <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AG = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/ag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="130dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TA = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TT = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TG = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/tg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TC = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GA = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="390dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"/>
+
+    <TextView
+        android:id="@+id/ga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="390dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GT = "
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GG = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/gg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GC = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/gc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CA = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/ca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CT = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="540dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="540dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CG = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="570dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/cg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_marginTop="570dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CC = "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="40dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nf"
+    tools:context=".MainActivity">
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+
+
+<!--        android:src="@drawable/images" />-->
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="400dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_alignParentBottom="false"
+        android:fontFamily="@font/spacequestitalic_60x"
+        android:gravity="center"
+        android:text="@string/heading"
+        android:textColor="@color/purple_500"
+
+
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hamming_button"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="calculateHammingDistance"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/hamming"
+        android:textColor="#FFFFFF"
+
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="calculateGC"
+        android:text="@string/gc_content"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hamming_button" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="0dp"
+
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="calculateNucleotideFrequency"
+
+        android:text="@string/nucleotide_frequency"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="convertToAmino"
+        android:text="Convert DNA to RNA to Amino Acid Sequence"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="calculateAminoWeight"
+        android:text="Convert RNA to Amino Acid Sequence"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="aboutApp"
+        android:src="@drawable/i_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
