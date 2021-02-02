@@ -8,5 +8,5 @@ The app basically performs the following performs on both inputed text in the te
 4. Converting DNA to RNA to amino acid
 5. Converting RNA to amino acid sequence
 
-The apk has been attached above and in order to download the code, refer to the given link.
-Link: https://drive.google.com/drive/folders/1NGROtAwJcnrCcd1zUfdY-eLSJYIamI29?usp=sharing
+The apk and the source code can be downloaded from above or the given link.
+https://drive.google.com/drive/folders/1NGROtAwJcnrCcd1zUfdY-eLSJYIamI29?usp=sharing
